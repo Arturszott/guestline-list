@@ -1,0 +1,25 @@
+.filters-bar {
+    margin: 0 auto;
+    width: 600px;
+    border: 2px solid gray;
+
+    display: flex;
+    transform: translateY(-50%);
+    background-color: white;
+}
+
+.filters-bar .filter {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.filter label {
+    margin-right: 5px;
+}
+
+.star-rating {
+    cursor: pointer
+}

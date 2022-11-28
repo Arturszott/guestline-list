@@ -1,0 +1,65 @@
+.hotelCard {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.hotelCard header {
+    display: flex;
+    position: relative;
+
+}
+
+.hotelCard .details {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.image-slider {
+    position: relative;
+}
+
+.image-slider img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.image-slider button {
+    position: absolute;
+    top: 50%;
+}
+
+.image-slider .prev {
+    left: 0;
+}
+
+.image-slider .next {
+    right: 0;
+}
+
+.hotel-rating {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.room-item {
+    display: flex;
+    border-top: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+.room-item .details {
+    width: 150px;
+    flex-grow: 0;
+}
+
+.room-item .details p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.room-item .description {
+    flex: 1;
+}

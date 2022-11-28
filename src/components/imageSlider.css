@@ -1,0 +1,22 @@
+.image-slider {
+    position: relative;
+}
+
+.image-slider img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.image-slider button {
+    position: absolute;
+    top: 50%;
+}
+
+.image-slider .prev {
+    left: 0;
+}
+
+.image-slider .next {
+    right: 0;
+}
